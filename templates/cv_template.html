@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="{{ css_path }}">
+</head>
+<body>
+
+  <h1>{{ nombre }}</h1>
+  <p class="titulo-profesional">{{ titulo_profesional }}</p>
+  <p class="contacto">{{ email }} | {{ telefono }} | {{ ubicacion }} | {{ linkedin }}</p>
+
+  <h2>{{ labels.perfil }}</h2>
+  <p>{{ resumen }}</p>
+
+  <h2>{{ labels.experiencia }}</h2>
+  {% for exp in experiencia %}
+  <div class="entrada">
+    <div class="entrada-header">
+      <span>{{ exp.puesto }}</span>
+      <span>{{ exp.fecha_inicio }} — {{ exp.fecha_fin }}</span>
+    </div>
+    <div class="entrada-subheader">{{ exp.empresa }} · {{ exp.ubicacion }}</div>
+    <ul>
+      {% for b in exp.bullets %}
+      <li>{{ b.accion }} {{ b.metrica }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+
+  <h2>{{ labels.proyectos }}</h2>
+  {% for p in proyectos %}
+  <div class="entrada">
+    <div class="entrada-header"><span>{{ p.nombre }}</span></div>
+    <p>{{ p.texto }}</p>
+  </div>
+  {% endfor %}
+
+  <h2>{{ labels.educacion }}</h2>
+  {% for edu in educacion %}
+  <div class="entrada">
+    <div class="entrada-header">
+      <span>{{ edu.titulo }}</span>
+      <span>{{ edu.fecha_inicio }} — {{ edu.fecha_fin }}</span>
+    </div>
+    <div class="entrada-subheader">{{ edu.institucion }} · {{ edu.ubicacion }}</div>
+  </div>
+  {% endfor %}
+
+  <h2>{{ labels.skills }}</h2>
+  {% for cat in skills_tecnicas %}
+  <p class="skills-categoria"><strong>{{ cat.categoria }}:</strong> {{ cat['items'] | join(", ") }}</p>
+  {% endfor %}
+
+  <h2>{{ labels.skills_blandas }}</h2>
+  <ul>
+    {% for s in skills_blandas %}
+    <li>{{ s }}</li>
+    {% endfor %}
+  </ul>
+
+
+  <h2>{{ labels.idiomas }}</h2>
+  <p>{{ idiomas | join(" · ") }}</p>
+
+</body>
+</html>

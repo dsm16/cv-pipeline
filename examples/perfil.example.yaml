@@ -1,0 +1,90 @@
+# Entirely fictional demonstration data. No real candidate or employer.
+datos_personales:
+  nombre: "Mira Example"
+  titulo_profesional: "Desarrolladora de automatización de datos (ejemplo ficticio)"
+  titulo_profesional_en: "Data Automation Developer (fictional example)"
+  email: "mira@example.invalid"
+  telefono: "Not provided — fictional candidate"
+  ubicacion: "Ciudad Imaginaria"
+  linkedin: "https://example.invalid/fictional-profile"
+
+resumenes:
+  - id: automation
+    tags: [python, automation, validation]
+    texto: "Perfil ficticio dedicado a transformar archivos de inventario de una biblioteca imaginaria mediante scripts reproducibles y validaciones explícitas."
+    texto_en: "Fictional profile focused on transforming inventory files for an imaginary library using reproducible scripts and explicit validation."
+  - id: reporting
+    tags: [sql, reporting]
+    texto: "Perfil ficticio orientado a consultas SQL y reportes de inventario para ejercicios de demostración."
+    texto_en: "Fictional profile focused on SQL queries and inventory reporting for demonstration exercises."
+
+experiencia:
+  - empresa: "Lanternleaf Archive — fictional organization"
+    puesto: "Desarrolladora de herramientas de inventario"
+    puesto_en: "Inventory Tools Developer"
+    ubicacion: "Ciudad Imaginaria"
+    fecha_inicio: "2022-02"
+    fecha_fin: "2023-11"
+    bullets:
+      - id: archive_import
+        tags: [python, automation, validation]
+        accion: "Construí un importador de archivos CSV para un catálogo ficticio de libros."
+        accion_en: "Built a CSV importer for a fictional book catalog."
+        metrica: "Registraba filas rechazadas para su revisión manual."
+        metrica_en: "Recorded rejected rows for manual review."
+      - id: archive_queries
+        tags: [sql, reporting]
+        accion: "Preparé consultas SQL para revisar categorías del catálogo de demostración."
+        accion_en: "Prepared SQL queries to review demonstration catalog categories."
+        metrica: "Los resultados se exportaban como tablas de texto."
+        metrica_en: "Results were exported as text tables."
+
+proyectos:
+  - nombre: "Validador de catálogo ficticio"
+    nombre_en: "Fictional Catalog Validator"
+    tags: [python, validation]
+    texto: "Ejercicio ficticio que comprueba encabezados CSV y señala registros incompletos antes de crear un reporte."
+    texto_en: "Fictional exercise that checks CSV headers and flags incomplete records before creating a report."
+  - nombre: "Explorador SQL de ejemplo"
+    nombre_en: "Example SQL Explorer"
+    tags: [sql, reporting]
+    texto: "Ejercicio ficticio con consultas sobre un inventario sintético."
+    texto_en: "Fictional exercise with queries over a synthetic inventory."
+
+educacion:
+  - institucion: "Instituto de Práctica Imaginaria — fictional institution"
+    titulo: "Programa ficticio de programación"
+    titulo_en: "Fictional Programming Program"
+    ubicacion: "Ciudad Imaginaria"
+    fecha_inicio: "2020"
+    fecha_fin: "2022"
+
+skills_tecnicas:
+  - categoria: "Programación"
+    categoria_en: "Programming"
+    items: [Python, SQL]
+  - categoria: "Procesamiento de archivos"
+    categoria_en: "File Processing"
+    items: [CSV, YAML, JSON]
+
+skills_blandas: [Documentación, Revisión cuidadosa]
+skills_blandas_en: [Documentation, Careful review]
+
+idiomas:
+  - idioma: "Español"
+    idioma_en: "Spanish"
+    nivel: "Ejemplo"
+    nivel_en: "Example"
+  - idioma: "Inglés"
+    idioma_en: "English"
+    nivel: "Ejemplo"
+    nivel_en: "Example"
+
+palabras_clave_ats:
+  programming: [Python, SQL]
+  workflows: [CSV, Validation, Automation]
+
+keyword_tag_map:
+  CSV: [python]
+  Validation: [validation]
+  Automation: [automation]

@@ -1,0 +1,19 @@
+TITULO: Junior File Automation Developer — fictional vacancy
+EMPRESA: Paperkite Observatory — fictional employer
+UBICACION: Imaginary City
+MODALIDAD: Remote (demonstration only)
+URL: https://example.invalid/fictional-vacancy
+---
+This vacancy is entirely synthetic. The employer and position do not exist.
+
+Paperkite Observatory is an imaginary organization maintaining a practice
+catalog of weather instruments. We are looking for a junior developer to
+build small Python utilities that read CSV files and create readable reports.
+
+The demonstration role involves Automation of repetitive file-processing
+steps and Validation of input headers and required values. Basic SQL is useful
+for reviewing the synthetic catalog. Clear documentation and careful review
+of rejected records are part of the exercise.
+
+No real hiring process, compensation, contact information, or applicant data
+is represented in this example.
